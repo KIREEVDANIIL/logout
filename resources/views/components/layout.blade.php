@@ -8,12 +8,12 @@
 </head>
 <body class="bg-white">
     @if (session()->has('ok'))
-        <div class="bg-green text-white p-2 text-center">
+        <div class="bg-green-800 text-white p-2 text-center">
             {{ session('ok') }}
         </div>
     @endif
     @if (session()->has('alert'))
-        <div class="bg-red text-white p-2 text-center">
+        <div class="bg-red-800 text-white p-2 text-center">
             {{ session('alert') }}
         </div>
     @endif
